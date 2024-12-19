@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚑 Emergency Vehicle Priority System 🚦
 
-## Getting Started
+AI-Enhanced V2X Solution for Real-Time Emergency Vehicle Prioritization
 
-First, run the development server:
+📖 About the Project
+Emergency services like ambulances and fire trucks often face delays due to traffic congestion, leading to increased response times and potential loss of life. This project introduces an AI-driven V2X communication system to:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Prioritize emergency vehicles by optimizing their routes.
+Adjust traffic signals dynamically to create clear paths.
+Notify drivers and pedestrians within a 10 km radius of the vehicle's path.
+The system adheres to IEEE standards for secure, low-latency, and scalable communication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌟 Features
+🚨 Emergency Vehicle Routing
+Optimizes real-time routes to reduce response times.
+🚦 Dynamic Traffic Signal Adjustment
+Adjusts traffic signals to create a clear path.
+📡 V2X Communication
+Utilizes IEEE 802.11p for low-latency and IEEE 1609 for secure data exchange.
+🤖 AI-Driven Decision-Making
+Machine learning models for route optimization and real-time traffic updates.
+🛑 Real-Time Alerts
+Notifies nearby vehicles and pedestrians to make way for emergency vehicles.
+📊 System Architecture
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+An overview of the AI-driven V2X communication system.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🚀 Technology Stack
+Component	Technologies/Standards
+Programming	Python, FastAPI, React, Node.js
+Database	MongoDB
+AI/ML Framework	TensorFlow
+Communication	MQTT, WebSocket, IEEE 802.11p, 5G-V2X
+Standards	IEEE 802.11p, IEEE 1609, IEEE 2040
+🎥 Demonstration
 
-## Learn More
+Simulation of emergency vehicle routing and traffic signal adjustment.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Click "Start Simulation": Observe how the system dynamically generates a route for the emergency vehicle.
+Watch in Real-Time: Emergency vehicles are represented in blue, other vehicles in green, and affected traffic lights in red.
+Traffic Management in Action: See how signals adjust and vehicles clear paths.
+📈 Impact and Benefits
+🚗 User Benefits
+Faster emergency responses.
+Improved safety for road users and emergency personnel.
+🌆 Community Benefits
+Enhanced trust in emergency systems.
+Reduced delays for emergency vehicles.
+🏥 Social Impact
+Reduced loss of life during emergencies.
+💰 Economic Impact
+Lower fuel costs and reduced traffic congestion.
+📚 References
+IEEE 802.11p: Wireless Access in Vehicular Environments
+IEEE 1609.x: Secure Vehicular Communication
+IEEE 2040: Automation for Traffic Management
+"5G for Vehicular Communications: A Survey," IEEE Communications Surveys & Tutorials
+🤝 Contributors
+Team Name: CodeX
+Mentor: Dr. Abhishek Joshi
